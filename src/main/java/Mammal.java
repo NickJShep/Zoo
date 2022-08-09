@@ -1,0 +1,24 @@
+public class Mammal extends Animal{
+
+
+    //////////////////////////////////////Attributes//////////////////////////
+
+    private boolean canSwim;
+
+    /////////////////////////////////////Constructors////////////////////////
+public Mammal (int age){
+
+    super(age);
+
+}
+
+    public Mammal(boolean canSwim) {
+        this(canSwim);
+        this.canSwim = canSwim;
+    }
+
+
+    /////////////////////////////////////Methods/////////////////////////////
+
+
+}
